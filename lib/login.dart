@@ -100,6 +100,19 @@ class Login extends StatelessWidget {
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),
+              SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                child: Row(
+                  children: [
+                    Expanded(child: Divider(color: cs.secondary)),
+                    const SizedBox(width: 8),
+                    Text('atau', style: TextStyle(color: cs.primary)),
+                    const SizedBox(width: 8),
+                    Expanded(child: Divider(color: cs.secondary)),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
