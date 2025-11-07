@@ -9,12 +9,12 @@ class Splashscreen3 extends StatelessWidget {
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
     return Scaffold(
-      body: Center(
-        child: SingleChildScrollView(
+      body: SafeArea(
+        child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const SizedBox(height: 50),
+              const Spacer(),
               Container(
                 width: 250,
                 height: 250,
@@ -113,7 +113,7 @@ class Splashscreen3 extends StatelessWidget {
                 ),
               ),
 
-              const SizedBox(height: 40),
+              const Spacer(),
               const Footer(),
             ],
           ),
