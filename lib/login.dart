@@ -26,6 +26,12 @@ class Login extends StatelessWidget {
                 ),
                 textAlign: TextAlign.center,
               ),
+              SizedBox(height: 30),
+              Text(
+                'Silahkan Login Disini untuk tercyan cyan',
+                style: TextStyle(fontSize: 16, color: cs.secondary),
+                textAlign: TextAlign.center,
+              ),
             ],
           ),
         ),
