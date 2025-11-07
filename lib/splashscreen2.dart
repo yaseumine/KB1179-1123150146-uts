@@ -19,7 +19,7 @@ class Splashscreen2 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: cs.surface,
                 image: const DecorationImage(
-                  image: AssetImage('images/assets/image1.png'),
+                  image: AssetImage('images/assets/image2.png'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -35,7 +35,7 @@ class Splashscreen2 extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              'Ini Adalah Aplikasi Bertema Cyan yang dibuat oleh Yasmin',
+              'Akuin Ini Halaman Kedua dari Aplikasi Bertema Cyan',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 15,
