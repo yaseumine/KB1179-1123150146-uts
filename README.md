@@ -80,4 +80,4 @@ Berikut adalah instruksi untuk menjalankan proyek ini pada perangkat lokal.
 
 ### 📝 Catatan Kendala
 
-[Tuliskan catatan atau kendala yang dihadapi selama pengerjaan di sini. Jika tidak ada, tulis: "Tidak ada kendala spesifik yang dihadapi selama pengerjaan proyek."_]
+"Tidak ada kendala spesifik yang dihadapi selama pengerjaan proyek."
