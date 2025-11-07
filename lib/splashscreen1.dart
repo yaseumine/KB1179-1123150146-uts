@@ -75,6 +75,37 @@ class Splashscreen1 extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(height: 50),
+            Container(
+              margin: const EdgeInsets.symmetric(horizontal: 30),
+              child: SizedBox(
+                height: 48,
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: cs.primary,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 50.0,
+                      vertical: 15.0,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30.0),
+                    ),
+                  ),
+                  child: Text(
+                    'Get Started',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: cs.onPrimary,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+
+            const SizedBox(height: 40),
           ],
         ),
       ),
