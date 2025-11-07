@@ -32,6 +32,26 @@ class Login extends StatelessWidget {
                 style: TextStyle(fontSize: 16, color: cs.secondary),
                 textAlign: TextAlign.center,
               ),
+              SizedBox(height: 30),
+              TextField(
+                keyboardType: TextInputType.phone,
+                decoration: InputDecoration(
+                  labelText: 'Nomor Telepon',
+                  hintText: 'Masukkan Nomor Telepon Anda',
+                  prefixIcon: const Icon(Icons.phone_outlined),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                    borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                    borderSide: BorderSide(color: cs.primary, width: 2.0),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
