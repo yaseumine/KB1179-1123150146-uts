@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uts/footer.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -124,11 +125,17 @@ class Login extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12.0),
                   ),
                 ),
-                child: const Text(
+                child: Text(
                   'Register',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: cs.primary,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
+              SizedBox(height: 30),
+              const Footer(),
             ],
           ),
         ),
