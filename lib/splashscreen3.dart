@@ -61,7 +61,7 @@ class Splashscreen3 extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: cs.primary,
+                    color: cs.onSurface,
                   ),
                 ),
                 SizedBox(width: 10),
@@ -70,7 +70,7 @@ class Splashscreen3 extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: cs.onSurface,
+                    color: cs.primary,
                   ),
                 ),
               ],
