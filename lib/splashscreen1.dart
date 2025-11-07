@@ -33,6 +33,16 @@ class Splashscreen1 extends StatelessWidget {
                 color: cs.primary,
               ),
             ),
+            SizedBox(height: 20),
+            Text(
+              'Ini Adalah Aplikasi Bertema Cyan yang dibuat oleh Yasmin',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.normal,
+                color: cs.primary,
+              ),
+            ),
           ],
         ),
       ),
