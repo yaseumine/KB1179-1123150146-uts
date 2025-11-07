@@ -24,6 +24,15 @@ class Splashscreen1 extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 20),
+            Text(
+              'Selamat Datang ',
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                color: cs.primary,
+              ),
+            ),
           ],
         ),
       ),
